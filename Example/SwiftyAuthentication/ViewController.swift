@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyAuthentication
 
 class ViewController: UIViewController {
 
@@ -18,6 +19,20 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func actionLoginWithApple(_ sender: Any) {
+        let service = SwiftyAuthentication()
+        //Scope is optional. You can use it without any parameter. service.signInWithApple {result in }
+        service.signInWithApple([.fullName, .email]) { result in
+            switch result {
+                case .success(let user):
+                    print("User: ", user)
+                    
+                case .failure(let error):
+                    print("Error: ", error.localizedDescription)
+            }
+        }
     }
 
 }

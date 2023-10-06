@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0FBBED7C88407373CEB53F40 /* Pods_SwiftyAuthentication_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyAuthentication_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A81EDD4B2D84822CD980A72 /* SwiftyAuthentication.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftyAuthentication.podspec; path = ../SwiftyAuthentication.podspec; sourceTree = "<group>"; };
+		2A81EDD4B2D84822CD980A72 /* SwiftyAuthentication.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftyAuthentication.podspec; path = ../SwiftyAuthentication.podspec; sourceTree = "<group>"; };
 		2B2C5E564FE0799DC3412B47 /* Pods-SwiftyAuthentication_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyAuthentication_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftyAuthentication_Example/Pods-SwiftyAuthentication_Example.release.xcconfig"; sourceTree = "<group>"; };
 		41885B5E0043E4E5902A6353 /* Pods-SwiftyAuthentication_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyAuthentication_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyAuthentication_Tests/Pods-SwiftyAuthentication_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftyAuthentication_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyAuthentication_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,11 +42,12 @@
 		607FACE51AFB9204008FA782 /* SwiftyAuthentication_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyAuthentication_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7E3FFB032C49B1F4437E53DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7E3FFB032C49B1F4437E53DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		85437C72CA6ECD4DDE71123E /* Pods-SwiftyAuthentication_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyAuthentication_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyAuthentication_Example/Pods-SwiftyAuthentication_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9E5D2EBD97CA0D77B297F4FA /* Pods-SwiftyAuthentication_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyAuthentication_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftyAuthentication_Tests/Pods-SwiftyAuthentication_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BF9E751D2ACFF72D00EEF730 /* SwiftyAuthentication_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftyAuthentication_Example.entitlements; sourceTree = "<group>"; };
 		D9014925C0C11E1C0378979D /* Pods_SwiftyAuthentication_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyAuthentication_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE8D2CE686A304D3102B898C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EE8D2CE686A304D3102B898C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				BF9E751D2ACFF72D00EEF730 /* SwiftyAuthentication_Example.entitlements */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for SwiftyAuthentication */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -147,7 +149,6 @@
 				41885B5E0043E4E5902A6353 /* Pods-SwiftyAuthentication_Tests.debug.xcconfig */,
 				9E5D2EBD97CA0D77B297F4FA /* Pods-SwiftyAuthentication_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,11 +214,13 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = PCK46MLF23;
+						LastSwiftMigration = 1500;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = 5P7HEMT4DQ;
+						LastSwiftMigration = 1500;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -227,6 +230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,13 +482,20 @@
 			baseConfigurationReference = 85437C72CA6ECD4DDE71123E /* Pods-SwiftyAuthentication_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftyAuthentication_Example.entitlements;
+				DEVELOPMENT_TEAM = PCK46MLF23;
 				INFOPLIST_FILE = SwiftyAuthentication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -493,13 +504,20 @@
 			baseConfigurationReference = 2B2C5E564FE0799DC3412B47 /* Pods-SwiftyAuthentication_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftyAuthentication_Example.entitlements;
+				DEVELOPMENT_TEAM = PCK46MLF23;
 				INFOPLIST_FILE = SwiftyAuthentication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -507,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41885B5E0043E4E5902A6353 /* Pods-SwiftyAuthentication_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5P7HEMT4DQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -516,11 +535,16 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyAuthentication_Example.app/SwiftyAuthentication_Example";
 			};
 			name = Debug;
@@ -529,16 +553,22 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9E5D2EBD97CA0D77B297F4FA /* Pods-SwiftyAuthentication_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5P7HEMT4DQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyAuthentication_Example.app/SwiftyAuthentication_Example";
 			};
 			name = Release;

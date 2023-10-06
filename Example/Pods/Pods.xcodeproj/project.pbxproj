@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		169FD0F6D9B803F795B648EFD8208A9B /* Pods-SwiftyAuthentication_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05707141AB38C9E39D10576D3DCF3423 /* Pods-SwiftyAuthentication_Example-dummy.m */; };
-		2F03AAF6FE146170401BAFE2FE535DB5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C35BCAC49D993930B72822E4318F432 /* ReplaceMe.swift */; };
+		2F03AAF6FE146170401BAFE2FE535DB5 /* SwiftyAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C35BCAC49D993930B72822E4318F432 /* SwiftyAuthentication.swift */; };
 		32BB214A0ED91E0703D0F51F37C92458 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3EE86DA8835109AEDBB50D8B8C33F2A8 /* SwiftyAuthentication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1B1316989BAC700F2F569DE8DBABCB /* SwiftyAuthentication-dummy.m */; };
 		3F7CEF0C905ED095C32A55D2DA3E5923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -16,6 +16,7 @@
 		5B0AE8892E78E83CDD1F1FA14BD00BBA /* SwiftyAuthentication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 774CB5EACDB8DC87AAA7D6537FDAFDF9 /* SwiftyAuthentication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8108DB6BDCA9E074CCAD09D1E2ED7CF2 /* Pods-SwiftyAuthentication_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB809085C6080AC6B571FA6901E7D0F4 /* Pods-SwiftyAuthentication_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B94835ED1F393464207ADEDF710C0143 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BF5ACDA72ACFEEE8002E7F45 /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5ACDA62ACFEEE8002E7F45 /* KeyChain.swift */; };
 		C5D8D26AE3992D694F14480D1B0317A8 /* Pods-SwiftyAuthentication_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9014E8CD2C0FA48FAE1EA19BCDD16DE3 /* Pods-SwiftyAuthentication_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -38,11 +39,11 @@
 
 /* Begin PBXFileReference section */
 		05707141AB38C9E39D10576D3DCF3423 /* Pods-SwiftyAuthentication_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyAuthentication_Example-dummy.m"; sourceTree = "<group>"; };
-		07061649D4297B6AD8AF623AB3C137CA /* SwiftyAuthentication */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyAuthentication; path = SwiftyAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07061649D4297B6AD8AF623AB3C137CA /* SwiftyAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		121BA36F246C760BBA9FEC6A708F27C5 /* SwiftyAuthentication-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyAuthentication-prefix.pch"; sourceTree = "<group>"; };
 		1A7017B55780EBDDEE11373838881E90 /* Pods-SwiftyAuthentication_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyAuthentication_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1F19B9EF465075B3478C649E71507FFF /* Pods-SwiftyAuthentication_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftyAuthentication_Tests"; path = Pods_SwiftyAuthentication_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C35BCAC49D993930B72822E4318F432 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftyAuthentication/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		1F19B9EF465075B3478C649E71507FFF /* Pods_SwiftyAuthentication_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyAuthentication_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C35BCAC49D993930B72822E4318F432 /* SwiftyAuthentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftyAuthentication.swift; sourceTree = "<group>"; };
 		30E6BDFAC107A5CE128B29FB9DA2DD5E /* Pods-SwiftyAuthentication_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyAuthentication_Example-frameworks.sh"; sourceTree = "<group>"; };
 		36C51E7061B996A7C52088756ECBFBEF /* SwiftyAuthentication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyAuthentication.modulemap; sourceTree = "<group>"; };
 		3BCC7B8BF972EB313015C6CF0A591C2F /* Pods-SwiftyAuthentication_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyAuthentication_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -57,18 +58,19 @@
 		871D8F959204C0A97B154C3B42853E8C /* Pods-SwiftyAuthentication_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyAuthentication_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9014E8CD2C0FA48FAE1EA19BCDD16DE3 /* Pods-SwiftyAuthentication_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyAuthentication_Example-umbrella.h"; sourceTree = "<group>"; };
 		986C193C307CB6E061A3AF37938A47DE /* Pods-SwiftyAuthentication_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyAuthentication_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9991EB8AAE0144D079A49B14C3D8A4D2 /* Pods-SwiftyAuthentication_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftyAuthentication_Example"; path = Pods_SwiftyAuthentication_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9991EB8AAE0144D079A49B14C3D8A4D2 /* Pods_SwiftyAuthentication_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyAuthentication_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6C7C8C545EBC3707E08DB4DB4BED17 /* SwiftyAuthentication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyAuthentication.release.xcconfig; sourceTree = "<group>"; };
 		9C89724929B6D25A2055AF972CD75DDD /* Pods-SwiftyAuthentication_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyAuthentication_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E58D75DAD1CCA6DD896CAD066A2CE76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E58D75DAD1CCA6DD896CAD066A2CE76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A5AF162C5C865DDEC16291385439D773 /* Pods-SwiftyAuthentication_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyAuthentication_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AF92FAAD5C3C3EAB09688018A3A9110B /* SwiftyAuthentication-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyAuthentication-Info.plist"; sourceTree = "<group>"; };
 		B137D8193B852867EA4DB42FC1EF74EA /* Pods-SwiftyAuthentication_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyAuthentication_Tests.modulemap"; sourceTree = "<group>"; };
+		BF5ACDA62ACFEEE8002E7F45 /* KeyChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
 		C6DC6BA96DC946001FF54A2127AFD23C /* Pods-SwiftyAuthentication_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyAuthentication_Example.modulemap"; sourceTree = "<group>"; };
-		E209499CA1342A823FA2CBF78D38E812 /* SwiftyAuthentication.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftyAuthentication.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E209499CA1342A823FA2CBF78D38E812 /* SwiftyAuthentication.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftyAuthentication.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		EB809085C6080AC6B571FA6901E7D0F4 /* Pods-SwiftyAuthentication_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyAuthentication_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EE0C730BEB739B04FB0E4C5F00FAF711 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EE0C730BEB739B04FB0E4C5F00FAF711 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FB84F5063636A43444617E39ADDAEBD1 /* Pods-SwiftyAuthentication_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyAuthentication_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,9 +121,9 @@
 		1F562AEBDA84A7E4DCE8DB8677E78DA1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9991EB8AAE0144D079A49B14C3D8A4D2 /* Pods-SwiftyAuthentication_Example */,
-				1F19B9EF465075B3478C649E71507FFF /* Pods-SwiftyAuthentication_Tests */,
-				07061649D4297B6AD8AF623AB3C137CA /* SwiftyAuthentication */,
+				9991EB8AAE0144D079A49B14C3D8A4D2 /* Pods_SwiftyAuthentication_Example.framework */,
+				1F19B9EF465075B3478C649E71507FFF /* Pods_SwiftyAuthentication_Tests.framework */,
+				07061649D4297B6AD8AF623AB3C137CA /* SwiftyAuthentication.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +170,15 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		BF5ACDA52ACFEB7A002E7F45 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BF5ACDA62ACFEEE8002E7F45 /* KeyChain.swift */,
+				2C35BCAC49D993930B72822E4318F432 /* SwiftyAuthentication.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		C300675C68685F5986B19F02AF662D2C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,7 +192,7 @@
 		CE3ABE8679B74DE87AF5DDCCFFEC50D8 /* SwiftyAuthentication */ = {
 			isa = PBXGroup;
 			children = (
-				2C35BCAC49D993930B72822E4318F432 /* ReplaceMe.swift */,
+				BF5ACDA52ACFEB7A002E7F45 /* Source */,
 				C300675C68685F5986B19F02AF662D2C /* Pod */,
 				EB5F7A172421D2B8E4982657AC20734E /* Support Files */,
 			);
@@ -268,7 +279,7 @@
 			);
 			name = SwiftyAuthentication;
 			productName = SwiftyAuthentication;
-			productReference = 07061649D4297B6AD8AF623AB3C137CA /* SwiftyAuthentication */;
+			productReference = 07061649D4297B6AD8AF623AB3C137CA /* SwiftyAuthentication.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		93C4DC6CB03E67AF5BCB9BA5C168C20F /* Pods-SwiftyAuthentication_Example */ = {
@@ -287,7 +298,7 @@
 			);
 			name = "Pods-SwiftyAuthentication_Example";
 			productName = Pods_SwiftyAuthentication_Example;
-			productReference = 9991EB8AAE0144D079A49B14C3D8A4D2 /* Pods-SwiftyAuthentication_Example */;
+			productReference = 9991EB8AAE0144D079A49B14C3D8A4D2 /* Pods_SwiftyAuthentication_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B8388CD6E1E8923C2EBB8A515E075D97 /* Pods-SwiftyAuthentication_Tests */ = {
@@ -306,7 +317,7 @@
 			);
 			name = "Pods-SwiftyAuthentication_Tests";
 			productName = Pods_SwiftyAuthentication_Tests;
-			productReference = 1F19B9EF465075B3478C649E71507FFF /* Pods-SwiftyAuthentication_Tests */;
+			productReference = 1F19B9EF465075B3478C649E71507FFF /* Pods_SwiftyAuthentication_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -317,6 +328,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2B95B69438571396D4EB7333D83DDBCB = {
+						LastSwiftMigration = 1500;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -375,7 +391,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F03AAF6FE146170401BAFE2FE535DB5 /* ReplaceMe.swift in Sources */,
+				2F03AAF6FE146170401BAFE2FE535DB5 /* SwiftyAuthentication.swift in Sources */,
+				BF5ACDA72ACFEEE8002E7F45 /* KeyChain.swift in Sources */,
 				3EE86DA8835109AEDBB50D8B8C33F2A8 /* SwiftyAuthentication-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,15 +439,18 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftyAuthentication/SwiftyAuthentication-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftyAuthentication/SwiftyAuthentication-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftyAuthentication/SwiftyAuthentication.modulemap";
 				PRODUCT_MODULE_NAME = SwiftyAuthentication;
 				PRODUCT_NAME = SwiftyAuthentication;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -453,7 +473,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyAuthentication_Tests/Pods-SwiftyAuthentication_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyAuthentication_Tests/Pods-SwiftyAuthentication_Tests.modulemap";
@@ -464,6 +484,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -486,7 +509,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyAuthentication_Example/Pods-SwiftyAuthentication_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyAuthentication_Example/Pods-SwiftyAuthentication_Example.modulemap";
@@ -497,6 +520,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -519,7 +545,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyAuthentication_Tests/Pods-SwiftyAuthentication_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyAuthentication_Tests/Pods-SwiftyAuthentication_Tests.modulemap";
@@ -530,6 +556,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -553,7 +582,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyAuthentication_Example/Pods-SwiftyAuthentication_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyAuthentication_Example/Pods-SwiftyAuthentication_Example.modulemap";
@@ -564,6 +593,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -621,13 +653,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -686,7 +717,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -715,15 +746,18 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftyAuthentication/SwiftyAuthentication-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftyAuthentication/SwiftyAuthentication-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftyAuthentication/SwiftyAuthentication.modulemap";
 				PRODUCT_MODULE_NAME = SwiftyAuthentication;
 				PRODUCT_NAME = SwiftyAuthentication;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
