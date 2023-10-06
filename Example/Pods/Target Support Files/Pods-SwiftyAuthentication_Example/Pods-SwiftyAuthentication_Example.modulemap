@@ -1,0 +1,6 @@
+framework module Pods_SwiftyAuthentication_Example {
+  umbrella header "Pods-SwiftyAuthentication_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyAuthentication (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyAuthentication (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyAuthentication:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyAuthentication: ca65a48ff9302c12984b710c3b5fcab6a7a476fd
+
+PODFILE CHECKSUM: d2e3cebfc0a545c451445cb7c48cb8d76c965b59
+
+COCOAPODS: 1.13.0
