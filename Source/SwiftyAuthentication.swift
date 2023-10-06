@@ -33,12 +33,13 @@ public class SwiftyAuthentication: NSObject {
 extension SwiftyAuthentication: ASAuthorizationControllerDelegate, ASAuthorizationControllerPresentationContextProviding {
     
     public func presentationAnchor(for controller: ASAuthorizationController) -> ASPresentationAnchor {
-        let keyWindow = UIApplication.shared.keyWindow?.rootViewController
-        let presentingViewController = (UIApplication.shared.connectedScenes.first as? UIWindowScene)?.windows.first?.rootViewController ?? keyWindow
-        return presentingViewController!.view.window!
+        let window = (UIApplication.shared.connectedScenes.first as? UIWindowScene)?.windows.first
+        let presentingViewController = window?.rootViewController
+        return window ?? presentingViewController!.view.window!
     }
     
     public func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
+        print("Eerror in : ", error.localizedDescription)
         appleLoginCallback?(.failure(error))
     }
     

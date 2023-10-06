@@ -10,6 +10,7 @@ import UIKit
 import SwiftyAuthentication
 
 class ViewController: UIViewController {
+    let service = SwiftyAuthentication()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +23,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actionLoginWithApple(_ sender: Any) {
-        let service = SwiftyAuthentication()
         //Scope is optional. You can use it without any parameter. service.signInWithApple {result in }
         service.signInWithApple([.fullName, .email]) { result in
             switch result {
