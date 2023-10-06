@@ -10,6 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+IOS 13.0+
 
 ## Installation
 
@@ -19,10 +20,24 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SwiftyAuthentication'
 ```
+## Usage
+
+```swift
+let service = SwiftyAuthentication()
+service.signInWithApple([.fullName, .email]) { result in
+            switch result {
+                case .success(let user):
+                    print("User: ", user)
+                    
+                case .failure(let error):
+                    print("Error: ", error.localizedDescription)
+            }
+        }
+```
 
 ## Author
 
-DeveloperZainModr, zainpk121@icloud.com
+Zain Haider, zainpk121@icloud.com
 
 ## License
 
