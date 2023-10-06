@@ -34,15 +34,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Source/**/*.swift'
   s.swift_version = '5.0'
   s.platforms = {
-      "ios": "12.1"
+      "ios": "13.0"
   }
-  
-  
-  # s.resource_bundles = {
-  #   'SwiftyAuthentication' => ['SwiftyAuthentication/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
